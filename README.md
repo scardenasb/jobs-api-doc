@@ -14,9 +14,10 @@ Api to get Average Python jobs
 <h3>HOW TO USE IT?</h3>
 <p>Just call an endpoint with <b>GET</b> http method.</p>
 <h4>BASE URL</h4>
-<code>https://jobs-avg.up.railway.app</code>
-<br>
-<br>
+  
+  [https://jobs-avg.up.railway.app](https://jobs-avg.up.railway.app)
+<br/>
+<br/>
 <h4>ENDPOINTS</h4>
 <h4>Main</h4>
 <b>GET</b>
