@@ -8,7 +8,7 @@ Api to get Average Python jobs
 <div>
 <h3>WHAT IS THIS?</h3>
 <p>Data collected from major job sites on the internet, provides an <strong>average</strong> of the total number of jobs found.</p>
-<p>'new_jobs' key represents the delta between <strong>today jobs - yesterday jobs</strong></p>
+<p>The 'new_jobs' key represents the delta between <strong>today jobs - yesterday jobs</strong></p>
 <br>
 <br>
 <h3>HOW TO USE IT?</h3>
