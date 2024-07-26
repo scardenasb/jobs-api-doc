@@ -14,17 +14,16 @@ Api to get Average Python jobs
 <h3>HOW TO USE IT?</h3>
 <p>Just call an endpoint with <b>GET</b> http method.</p>
 <h4>BASE URL</h4>
-  
-  [https://avgjobs.top](https://jobs-avg.up.railway.app)
-<br/>
-<br/>
+<code>https://avgjobs.top</code>
+<br>
+<br>
 <h4>ENDPOINTS</h4>
 <h4>Main</h4>
 <b>GET</b>
 <b>/jobs</b>
 <p>Returns a JSON object containing all the jobs (there can be a large amount of data).</p>
 <div>
-<code>{"jobs": [{"id": 1, "jobs": 22000, "country": "Japan", "new_jobs": 389, "date": "2022-06-29"}, {"id": 2, "jobs": 43000, "country": "Netherlands", "new_jobs": 2155, "date": "2022-06-29"}, {"id": 3, "jobs": 434334, "country": "Japan", "new_jobs": 3499, "date": "2022-06-30"}]}</code>
+<code>{"jobs": [{"country": "Brazil", "jobs": 49000, "new_jobs": -49000, "date": "2024-07-20"}, {"country": "Canada", "jobs": 23000, "new_jobs": -23000, "date": "2024-07-20"}, {"country": "Chile", "jobs": 3000, "new_jobs": -3000, "date": "2024-07-20"}, {"country": "China", "jobs": 131000, "new_jobs": -131000, "date": "2024-07-20"}, {"country": "Denmark", "jobs": 2000, "new_jobs": -2000, "date": "2024-07-20"}, {"country": "Estonia", "jobs": 74, "new_jobs": -74, "date": "2024-07-20"}, {"country": "Finland", "jobs": 1000, "new_jobs": -1000, "date": "2024-07-20"}], "status_code": 200}</code>
 </div>
 <br>
 <h4>Countries as endpoint</h4>
@@ -60,15 +59,15 @@ Api to get Average Python jobs
 <b>/jobs/Japan</b><br>
 <p>It returns all the data related to that country.</p>
 <div>
-<code>{"jobs": [{"id": 1, "jobs": 22000, "country": "Japan", "new_jobs": 389, "date": "2022-06-29"}, {"id": 3, "jobs": 434334, "country": "Japan", "new_jobs": 3499, "date": "2022-06-30"}]}</code>
+<code>{"jobs": [{"country": "Japan", "jobs": 42000, "new_jobs": -42000, "date": "2024-07-20"}, {"country": "Japan", "jobs": 43000, "new_jobs": 1000, "date": "2024-07-21"}, {"country": "Japan", "jobs": 41000, "new_jobs": -2000, "date": "2024-07-22"}], "status_code": 200}</code>
 </div>
 <br>
 <h4>Dates as endpoints</h4>
 <b>GET</b>
-<b>/jobs/2022-06-29</b><br>
+<b>/jobs/2024-07-20</b><br>
 <p>Returns every record on the given date.</p>
 <div>
-<code>{"jobs": [{"id": 1, "jobs": 22000, "country": "Japan", "new_jobs": 389, "date": "2022-06-29"}, {"id": 2, "jobs": 43000, "country": "Netherlands", "new_jobs": 2155, "date": "2022-06-29"}]}</code>
+<code>{"jobs": [{"country": "Brazil", "jobs": 49000, "new_jobs": -49000, "date": "2024-07-20"}, {"country": "Canada", "jobs": 23000, "new_jobs": -23000, "date": "2024-07-20"}, {"country": "Chile", "jobs": 3000, "new_jobs": -3000, "date": "2024-07-20"}, {"country": "China", "jobs": 131000, "new_jobs": -131000, "date": "2024-07-20"}, {"country": "Denmark", "jobs": 2000, "new_jobs": -2000, "date": "2024-07-20"}, {"country": "Estonia", "jobs": 74, "new_jobs": -74, "date": "2024-07-20"}, {"country": "Finland", "jobs": 1000, "new_jobs": -1000, "date": "2024-07-20"}, {"country": "France", "jobs": 65000, "new_jobs": -65000, "date": "2024-07-20"}, {"country": "Germany", "jobs": 108000, "new_jobs": -108000, "date": "2024-07-20"}], "status_code": 200}</code>
 </div>
 </div>
 </section>
