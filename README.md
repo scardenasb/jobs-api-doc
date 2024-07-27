@@ -71,4 +71,9 @@ Api to get Average Python jobs
 </div>
 </div>
 </section>
+<br/>
+<br/>
+<br/>
+<p>This API is for informational purposes only and is provided free of charge. I am not responsible for any decisions made based on the provided information.</p>
+<br/>
 </body>
