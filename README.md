@@ -3,6 +3,7 @@
 <h1>
 Api to get Average IT jobs
 </h1>
+<p>go to <a href="https://avgjobs.top" target="_blank">avgjobs.top</a> for more information</p>
 </header>
 <section>
 <div>
