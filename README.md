@@ -17,8 +17,9 @@ Api to get Average IT jobs
             <ul>
                 <li>Python</li>
                 <li>Golang</li>
+                <li>Flask</li>
                 <li>Machine Learning</li>
-                <li>Artificial Intelligence</li>
+                <li>Artificial Intelligence (AI)</li>
             </ul>
             <br/>
             <br/>
